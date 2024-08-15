@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/devcontainers/images/tree/main/src/javascript-node
 {
-  "name": "JavaScript Portfolio Site with GitHub Codespaces",
+  "name": "This recipe website using javascript react",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
     "cpus": 4
@@ -18,13 +18,7 @@
     // Configure properties specific to VS Code.
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "GitHub.copilot",
-        "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
-      ],
+     
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
